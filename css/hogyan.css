@@ -1,0 +1,195 @@
+/*-----ALTALANOS-----*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+  background-color: #E8CF97;
+
+  
+}
+h4 {
+	font-size: 100px;
+	font-weight: 400;
+	color: white;
+	margin-left: 350px;
+	margin-top: 170px;
+
+}
+h3 {
+	font-size: 50px;
+	font-weight: 400;
+	color: white;
+	margin-left: 45px;
+	margin-top: 35px;
+}
+p {
+	color: white;
+	font-weight: 100;
+	margin-top: :10px;
+	font-size: 40px;
+}
+/*-------NAV-------*/
+a:link {
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/*----FORRÁSOS LINKEKHEZ----*/
+p a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+p a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+p a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.nav {
+	display: flex;
+	align-items: center;
+	height: 100px;
+	color: white;
+}
+.felso {
+	text-align: left;
+	color: #ffffff;
+}
+.felsok {
+	text-align: center;
+}
+.felsog {
+	text-align: right;
+}
+.felso, .felsok, .felsog {
+	flex: 1;
+	color: #ffffff;
+	text-decoration: none;
+	margin-top: 0px;
+}
+
+.felso , .felsok , .felsog  {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.felso  {
+	margin-left: 300px;
+}
+
+.felsog  {
+	margin-right: 300px;
+
+}
+.last {
+	
+	margin: none;
+	background-image: url(kepek/borito.jpg);
+	width: auto;
+	height: 700px;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.frame {
+	
+	border: 2px solid white;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 800px;
+	border-bottom: none;
+	border-top: none;
+}
+/*----tervek--*/
+.lado {
+	border: 2px solid white;
+	border-top: none;
+	border-bottom: none;
+	height: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: auto;
+	
+}
+.primero {
+	width: 90%;
+	height: auto;
+	margin-left: 120px;
+	margin-top: 25px;
+	
+}
+.dos {
+	width: 100%;
+	height: auto;
+	margin-left: 800px;
+	margin-top: -906px;
+
+}
+.tres {
+	width: 90%;
+	height: auto;
+	margin-left: 120px;
+	margin-top: 90px;
+}
+.cuatro {
+	width: 100%;
+	height: auto;
+	margin-left: 800px;
+	margin-top: -834px;
+
+}
+/*----nehezsegek--*/
+.dificil {
+	color: white;
+	margin-left: 100px;
+	margin-top: 20px;
+	
+}
+.ul.a {
+  list-style-position: outside;
+}
+/*----forras--*/
+.fin {
+	border: 2px solid white;
+	border-top: none;
+	
+	
+	margin-right: 20px;
+	margin-left: 20px;
+	height: auto;
+	margin-bottom: 40px;
+	padding-bottom: 80px;
+
+}

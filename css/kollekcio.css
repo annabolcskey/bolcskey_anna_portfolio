@@ -1,0 +1,254 @@
+/*----ALTALANOS----*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+  background-color: white;
+  
+}
+h4 {
+	font-size: 90px;
+	font-weight: 300;
+	color: #A27E57;
+	margin-left: 900px;
+	margin-top: 180px;
+}
+p {
+	color: #A27E57;
+	font-weight: 100;
+	margin-top: :10px;
+	font-size: 50px;
+}
+/*-------NAV-------*/
+a:link {
+  text-decoration: none;
+  color: #6B4629;
+  margin-top: 10px;
+
+}
+a:visited {
+  color: #6B4629;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	height: 100px;
+	color: #6B4629;
+}
+.felso {
+	text-align: left;
+	color: #ffffff;
+}
+.felsok {
+	text-align: center;
+}
+.felsog {
+	text-align: right;
+}
+.felso, .felsok, .felsog {
+	flex: 1;
+	color: #6B4629;
+	text-decoration: none;
+	margin-top: 0px;
+}
+
+.felso , .felsok , .felsog  {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.felso  {
+	margin-left: 300px;
+}
+
+.felsog  {
+	margin-right: 300px;
+
+}
+/*----legelso kephez-----*/
+.white {
+	margin: none;
+	background-image: url(kepek/blanca.jpg);
+	width: 100%;
+	height: 700px;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat; 		
+}
+.fram {
+	width: 97%;
+	border: 2px solid white;
+	border-top: 2px solid white;
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 680px;
+
+}
+
+.fő {
+	display: flex;
+	text-align: center;
+	position: absolute;
+	overflow: hidden;
+}
+
+.flex_egyenletesen{
+	justify-content: space-around;
+}
+/*-----elso kep pozicionalasa-----*/
+.kep_pozicionalt1{
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	margin-left: 80px;
+	margin-top: 60px;
+}
+
+.kep_pozicionalt1: hover p{
+	bottom:0;
+}
+.kep_pozicionalt1 span{
+	position: absolute;
+	top: -100%;
+	left:0;
+	width: 584px;
+	padding: 8px;
+	text-align: center;
+	background-color: rgba(255,255,255,.7);
+	transition: .3s;
+}
+.kep_pozicionalt1:hover span{
+	top:0;
+}
+.kep_pozicionalt1 img {
+	height: 600px;
+	width: 600px;
+}
+
+
+/*---masodik kep pzicionalasa------*/
+.kep_pozicionalt2{
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	margin-left: 800px;
+	margin-top: -300px;
+}
+
+
+.kep_pozicionalt2: hover p{
+	bottom:0;
+}
+.kep_pozicionalt2 span{
+	position: absolute;
+	top: -100%;
+	left:0;
+	width: 631px;
+	padding: 8px;
+	text-align: center;
+	background-color: rgba(255,255,255,.7);
+	transition: .3s;
+}
+.kep_pozicionalt2:hover span{
+	top:0;
+}
+.kep_pozicionalt2 img {
+	height: auto;
+	width: 90%;
+}
+
+/*-------harmadik kep pozicionalasa-----*/
+.kep_pozicionalt{
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	margin-left: 50px;
+	margin-top: -10px;
+}
+
+.kep_pozicionalt: hover p{
+	bottom:0;
+}
+.kep_pozicionalt span{
+	position: absolute;
+	top: -100%;
+	left:0;
+	width: 550px;
+	padding: 8px;
+	text-align: center;
+	background-color: rgba(255,255,255,.7);
+	transition: .3s;
+}
+.kep_pozicionalt:hover span{
+	top:0;
+}
+.kep_pozicionalt img {
+	height: 550px;
+	width: 550px;
+}
+.box {
+	border: 4px solid #9F7E56;
+	width: 550px;
+	height: 700px;
+	margin-left: 120px;
+	margin-top: -640px;
+}
+/*-------negyedik kep pozicionlasa--------*/
+.kep_pozicionalt4{
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	margin-left: 820px;
+	margin-top: -250px;
+}
+
+.kep_pozicionalt4: hover p{
+	bottom:0;
+}
+.kep_pozicionalt4 span{
+	position: absolute;
+	top: -180%;
+	left:100;
+	width: 630px;
+	padding: 8px;
+	text-align: center;
+	background-color: rgba(255,255,255,.7);
+	transition: .2s;
+}
+.kep_pozicionalt4:hover span{
+	top:0;
+}
+.kep_pozicionalt4 img {
+	width: 90%;
+	height: auto;
+}
+.box2 {
+	border: 3px solid white;
+	width: 500px;
+	height: 500px;
+	margin-left: 880px;
+	overflow: hidden;
+	position: absolute;
+	margin-top: -380px;
+}
+

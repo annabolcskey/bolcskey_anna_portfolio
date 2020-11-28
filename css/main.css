@@ -1,0 +1,262 @@
+/*---------ÁLLATALÁNOS-----------*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+  background-color: white;
+}
+
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+html {
+	
+	font-weight: 100;
+}
+
+
+
+footer {
+	margin: auto;
+	margin-top: 85
+	width: 100;
+	background-image: url(kepek/kep2.jpg);
+	background-size: cover
+}
+section {
+	width: 100%;
+	margin: auto;
+	height: 750px;
+
+}
+
+ }
+h1 {
+	font-size: 60px;
+	font-weight: 400;
+	color: white;	
+}
+h2{
+	font-size: 40px;
+	font-weight: 400;
+	color: white;
+	text-align: center;	
+}
+h3 {
+	font-size: 40px;
+	font-weight: 400;
+	color: white;	
+}
+h4 {
+	font-size: 100px;
+	font-weight: 400;
+	color: white;
+	margin-left: 570px;
+	margin-top: 230px;
+
+}
+h1 {
+	font-size: 50px;
+	font-weight: 100;
+	color: white;
+	margin-top: 10px;	
+}
+
+
+p {
+	color: white;
+	font-weight: 100;
+	margin-top: :10px;
+	font-size: 50px; 
+
+
+
+}
+h5 {
+	font
+	font-size: 1000px;
+	font-weight: 400px;
+	color: white;
+	margin-left: 700px;
+	margin-top: -50px;
+}
+h6 {
+	font
+	font-size: 500px;
+	font-weight: 400px;
+	color: white;
+	margin-left: 720px;
+	margin-top: 0px;
+	size: 40px;
+}
+/*------ NAV ---------*/
+.nav {
+	display: flex;
+	align-items: center;
+	height: 100px;
+	color: white;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.felso {
+	text-align: left;
+	color: #ffffff;
+}
+.felsok {
+	text-align: center;
+}
+.felsog {
+	text-align: right;
+}
+.felso, .felsok, .felsog {
+	flex: 1;
+	color: #ffffff;
+	text-decoration: none;
+	margin-top: 0px;
+}
+
+.felso , .felsok , .felsog  {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.felso  {
+	margin-left: 300px;
+}
+
+.felsog  {
+	margin-right: 300px;
+
+}
+
+.nav1 {
+	display: flex;
+	text-align: : left;
+	height: 100px;
+
+}
+.nav2 {
+	display: flex;
+	text-align: : center;
+	height: 100px;
+
+}
+.nav3 {
+	display: inline-block;
+	text-align: right;
+	height: 100px;
+
+}
+/*-----ELSŐ KÉPHEZ------*/
+.fő {
+	display: flex;
+	text-align: center;
+	position: relative;
+}
+
+.poco {
+	width: 100%;
+	margin: auto;
+	background-image: url(kepek/xx.jpg);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat; 
+
+}
+/*----MÁSODIK KÉPHEZ-------*/
+.segundo {
+	width: 98%;
+	margin: auto;
+	background-image: url(kepek/y1.jpg);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat; 
+	padding: 20px;
+}
+.rok {
+	
+	margin-left: 1250px;
+	padding: : 80px;
+	font-size: 50px;
+
+}
+.lorem {
+	margin-left: 700px;
+	margin-top: 150px;
+}
+/*----HARMADIK KÉPHEZ-------*/
+.beige {
+	
+	background-image: url(kepek/beige.jpg);
+	
+	margin-left: 700px;
+	position: relative;
+	width: 700px;
+	height: 350px;
+	margin-top: 150px;
+	
+}
+
+.flower {
+	
+	margin-left: 30px;
+  position: absolute;
+  -ms-transform: rotate(45deg); 
+  -ms-transform-origin: 20% 40%; 
+  transform-origin: 20% 40%;
+  overflow: hidden;
+  width: 750px;
+  margin-left: 50px;
+  margin-top: -480px;
+
+}
+.ms {
+	margin-left: 700px;
+	padding: : 80px;
+	font-size: 50px;
+	margin-top: -90px;
+	position: absolute;
+	overflow: hidden;
+
+
+}
+@media only screen and (min-width: 480px){
+		.grid5{
+			display: grid;
+			grid-template-columns:1fr minmax(min-content, 20rem) minmax(max-content, 40rem) 1fr;
+			grid-template-areas: 
+				
+			;
+		}
+	}
